@@ -1,0 +1,136 @@
+.tableArea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgb(0 0 0 / 65%);
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 65%;
+    width: 70%;
+  }
+  .backround{
+  /* background-image: url('https://wallpapercave.com/wp/wp6517811.jpg'); */
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;    
+    
+  }
+  .admintext{
+    text-align: center;
+    color: aquamarine;
+    font-weight: bolder;
+    font-size: large;
+  }
+  .buttonRow{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* justify-items: center; */
+  }
+  .tablecontainer{
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    height: 30vh;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  
+  }
+  
+  td, th {
+    border: 1px solid #0e0b0b;
+    text-align: center;
+    padding: 35px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #3f75b9;
+  }
+  tr:nth-child(odd) {
+    background-color: #00adffba;
+  }
+  .formbody1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0vh;
+  }
+  .crossButton{
+    display: grid;
+    justify-content: end;
+    cursor: pointer;
+    height: 35px;
+  }
+  .newtext{
+    display: grid;
+    margin-top: -18px;
+    font-weight: bolder;
+    padding-bottom: 58px;
+  }
+  
+  /* CSS */
+  .button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 30px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  }
+  
+  .button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+  }
+  
+  .button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+  }
+  .pagination{
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  }
+  .previousButton{
+  display: grid;
+  justify-content: start;
+  }
+  .nextButton{
+  display: grid;
+  justify-content: end;
+  }
+  .pageNumeber{
+  display: grid;
+  justify-content: center;
+  }
